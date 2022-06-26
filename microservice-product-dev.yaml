@@ -8,4 +8,4 @@ spring:
       database: test
 
 app:
-  testProp: Esto es un test que estamos probando para ver como hace el refresh la aplicacion
+  testProp: Esto ha sido actualizado con Actuator @RefreshScope
