@@ -8,4 +8,4 @@ spring:
       database: test
 
 app:
-  testProp: Esto ha sido actualizado con Actuator @RefreshScope
+  testProp: Esto ha sido actualizado con Actuator @RefreshScope y corregida la dependencia
