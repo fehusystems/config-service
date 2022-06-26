@@ -9,9 +9,3 @@ spring:
     generate-ddl: true
   datasource:
     url: jdbc:postgresql://localhost:5432/microservice
-    username: postgres
-    password: 741963
-
-
-server:
-  port: 0
