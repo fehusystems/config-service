@@ -6,3 +6,6 @@ spring:
     mongodb:
       uri: mongodb+srv://ipraetoriux:741963@cluster0.5w8juwv.mongodb.net/test
       database: test
+
+app:
+  testProp: Esto es un test
