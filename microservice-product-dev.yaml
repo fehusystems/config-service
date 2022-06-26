@@ -1,2 +1,20 @@
 product:
   property: Product Profile Dev
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://ipraetoriux:741963@cluster0.5w8juwv.mongodb.net/test
+      database: test
+  application:
+    name: microservice-product
+  cloud:
+    config:
+      profile: dev
+
+server:
+  port: 0
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
